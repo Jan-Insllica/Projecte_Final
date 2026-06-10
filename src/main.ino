@@ -4,8 +4,8 @@
 // =====================
 // CONFIGURACIÓ
 // =====================
-const char* ssid = "El_teu_WiFi";
-const char* password = "La_teva_contrasenya";
+const char* ssid = "Jan";
+const char* password = "Jan12345678";
 const int pinLM35 = 34;
 
 WebServer server(80);
