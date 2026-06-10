@@ -33,7 +33,7 @@ Accedeix a la IP que apareix pel navegador.
 
 El seguiment de les tasques s’ha realitzat mitjançant un tauler Kanban a GitHub amb les columnes:
 
-   To do
-   Doing
-   Done
+· To do
+· Doing
+· Done
 
