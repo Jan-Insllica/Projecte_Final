@@ -1,18 +1,12 @@
 #include <WiFi.h>
 #include <WebServer.h>
 
-// =====================
-// CONFIGURACIÓ
-// =====================
 const char* ssid = "Jan";
 const char* password = "Jan12345678";
 const int pinLM35 = 34;
 
 WebServer server(80);
 
-// =====================
-// ISSUE #2 - Lectura LM35
-// =====================
 float llegirTemperatura() {
   int lectura = analogRead(pinLM35);
   float voltatge = lectura * (3.3 / 4095.0);
@@ -20,9 +14,6 @@ float llegirTemperatura() {
   return temperatura;
 }
 
-// =====================
-// ISSUE #5 #6 #7 - Pàgina web amb dades i alertes
-// =====================
 void handleRoot() {
   float temp = llegirTemperatura();
 
@@ -59,9 +50,7 @@ void handleRoot() {
   server.send(200, "text/html", html);
 }
 
-// =====================
-// ISSUE #1 #3 #4 - Setup
-// =====================
+
 void setup() {
   Serial.begin(115200);
   Serial.println("GreenFarm Monitor iniciat!");
@@ -81,9 +70,7 @@ void setup() {
   Serial.println("Servidor web iniciat!");
 }
 
-// =====================
-// LOOP
-// =====================
+
 void loop() {
   server.handleClient();
 
