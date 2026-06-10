@@ -30,3 +30,10 @@ Selecciona la placa ESP32.
 Puja el codi a la placa.
 Obre el Serial Monitor a 115200 baud.
 Accedeix a la IP que apareix pel navegador.
+
+El seguiment de les tasques s’ha realitzat mitjançant un tauler Kanban a GitHub amb les columnes:
+
+    To do
+    Doing
+    Done
+
