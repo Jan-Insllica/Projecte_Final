@@ -37,3 +37,5 @@ El seguiment de les tasques s’ha realitzat mitjançant un tauler Kanban a GitH
 · Doing
 · Done
 
+Video demostratiu: https://drive.google.com/file/d/1933JIjnDKpmt7sTnZgzI3AuhvyJh1JD4/view?usp=sharing
+
